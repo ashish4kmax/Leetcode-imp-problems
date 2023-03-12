@@ -8,8 +8,6 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
-
-// This solution  is made using vectors + SLL concept but we have to do this only using SLL.
 class Solution {
 public:
     ListNode* insertbeg(ListNode* head,int value) {
@@ -19,22 +17,19 @@ public:
     }
 
     ListNode* mergeKLists(vector<ListNode*>& lists) {
-        ListNode* ans = NULL;
+        list<int>ans;
         vector<int>vals;
         for(int i=0;i<lists.size();i++) {
             while(lists[i]!=NULL) {
-                vals.push_back(lists[i]->val);
+                ans.push_back(lists[i]->val);
                 lists[i]=lists[i]->next;
             }
         }
-
-        sort(vals.begin(),vals.end());
-        reverse(vals.begin(),vals.end());
-
-        for(int i=0;i<vals.size();i++) {
-            ans = insertbeg(ans,vals[i]);
-        }
-        
-        return ans;
+        ans.sort();
+        ans.reverse();
+        ListNode* finalans = NULL;
+        for (auto itr = ans.begin(); itr != ans.end(); itr++)
+            finalans = insertbeg(finalans, *itr);
+        return finalans;
     }
 };
