@@ -1,3 +1,8 @@
+<style>
+  h1 {
+    color: red;
+  }
+</style>
 <h1> Leetcode </h1>
 <ul>
   <li>
