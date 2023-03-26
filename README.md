@@ -1,9 +1,4 @@
-<style>
-  h1 {
-    color: red;
-  }
-</style>
-<h1> Leetcode </h1>
+<h1 color="red"> Leetcode </h1>
 <ul>
   <li>
     <p>Leetcode is an online platform to enhance your skills and prepare for tech interviews. 
