@@ -2,7 +2,7 @@
 <ul>
   <li>
     <p>Leetcode is an online platform to enhance your skills and prepare for tech interviews. 
-      <br>There site has over 1900 coding problems with questions to help you prepare.
+      <br>There site has over 2603 coding problems with questions to help you prepare.
     </p>
   </li>
  </ul>
