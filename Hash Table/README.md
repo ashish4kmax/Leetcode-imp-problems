@@ -1,5 +1,5 @@
 # Links to the problem solution that I have made
-* The one which are marked with two '*'s are important questions.
+* The one which are marked with two ⭐'s are important questions.
 * <a href="https://leetcode.com/problems/minimum-number-of-operations-to-convert-time/">Minimum Number of Operations to Convert Time</a>
 * <a href="https://leetcode.com/problems/first-letter-to-appear-twice/">First Letter to Appear Twice</a>
 * <a href="https://leetcode.com/problems/most-common-word/">Most Common Word</a>
