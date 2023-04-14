@@ -17,4 +17,5 @@ public:
 	}
 };
 
-// Can also use set but this method is used to design a hash set it's simple if the vector has a true value then that key is present in hashset if false then key is not present!! that all.
+// Can also use set but this method is used to design a hash set it's simple if the vector has a true value then that key is present in hashset if false then key is 
+// not present!! that all.
