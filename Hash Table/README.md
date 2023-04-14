@@ -10,3 +10,4 @@
 * <a href="https://leetcode.com/problems/fruit-into-baskets/">fruit_into_basket</a>**
 * <a href="https://leetcode.com/problems/destination-city/">Destination City</a>
 * <a href="https://leetcode.com/problems/increasing-decreasing-string/">Increasing Decreasing String</a>
+* <a href="https://leetcode.com/problems/design-hashmap/">Design HashMap</a>
