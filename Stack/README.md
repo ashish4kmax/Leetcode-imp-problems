@@ -4,3 +4,4 @@
 * <a href="https://leetcode.com/problems/remove-outermost-parentheses/">Remove Outermost Parentheses</a>
 * <a href="https://leetcode.com/problems/removing-stars-from-a-string/">Removing Stars From a String</a>
 * <a href="https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/description/">Decrypt String from Alphabet to Integer Mapping</a>
+* <a href="https://leetcode.com/problems/baseball-game/">Baseball Game</a>
