@@ -9,7 +9,6 @@ A brief description of what this project does and who it's for
 
 * Every day starting May 5, LeetCode will pick one JavaScript problem to solve. Solve the daily problem to win rewards and master basic JavaScript skills. JavaScript beginners are welcome to join the event.
 
-* Day	Topic	Problem	Editorial
 * <em>  4 - Today's Problem	Basic Array Transforms	Apply Transform Over Each Element in Array	Editorial </em>
 
 <table>
