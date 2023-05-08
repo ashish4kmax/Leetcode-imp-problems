@@ -52,8 +52,7 @@ A brief description of what this project does and who it's for
 # ❓ How to Participate?
 
 * To participate, simply start solving the daily problems. The daily problem will be released at 00:00 UTC each day in THIS POST, and you must solve the problems within 30 days to qualify for the rewards.
-* Don't want to miss any day? ➡️ Fill out the registration form and let LeetCode help you be consistent!. Also, join the Discord community to solve problems together with other LeetCoders!
-* By filling up the registration form, you'll receive a daily email remider with the link to the problem and be qualified for participation rewards.
-<br>
-<a href="https://leetcode.com/discuss/study-guide/3458761/Open-to-Registration!-30-Days-of-LC-JavaScript-Challenge/?utm_campaign=Banner1&utm_medium=Banner&utm_source=Banner&gio_link_id=kojBgY6o">Link to see all the problems and register</a><br>
+* Don't want to miss any day? <a href="https://forms.gle/rgfZgjyN8af6PzxA6" rel="ugc">➡️ <strong>Fill out the registration form and let LeetCode help you be consistent!</strong></a>. Also, <a href="https://discord.gg/vAPMSZ5UwG" rel="ugc"><strong>join the Discord community</strong></a> to solve problems together with other LeetCoders!<br>
+By filling up <a href="https://forms.gle/rgfZgjyN8af6PzxA6" rel="ugc"><strong>the registration form</strong></a>, you'll receive a daily email remider with the link to the problem and be qualified for participation rewards.</p>
+<a href="https://leetcode.com/discuss/study-guide/3458761/Open-to-Registration!-30-Days-of-LC-JavaScript-Challenge/?utm_campaign=Banner1&utm_medium=Banner&utm_source=Banner&gio_link_id=kojBgY6o">Link to see more info about this challenge on LC website post!!</a><br>
 
