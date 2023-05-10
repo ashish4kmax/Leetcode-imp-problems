@@ -22,10 +22,10 @@ A brief description of what this project does and who it's for
 </thead>
 <tbody>
 <tr>
-<td>5 - <strong>Today's Problem</strong></td>
+<td>6 - <strong>Today's Problem</strong></td>
 <td>Basic Array Transforms</td>
-<td><a href="https://datayi.cn/w/a9a5VZr9" rel="ugc">Filter Elements from Array</a></td>
-<td><a href="https://leetcode.com/problems/filter-elements-from-array/editorial/">Editorial</a></td>
+<td><a href="https://datayi.cn/w/nPN45jD9" rel="ugc">Array Reduce Transformation</a></td>
+<td><a href="https://leetcode.com/problems/array-reduce-transformation/editorial/">Editorial</a></td>
 </tr>
 <tr>
 <td>1</td>
@@ -50,6 +50,12 @@ A brief description of what this project does and who it's for
 <td>Basic Array Transforms</td>
 <td><a href="https://datayi.cn/w/noqbNOv9" rel="ugc">Apply Transform Over Each Element in Array</a></td>
 <td><a href="https://leetcode.com/problems/apply-transform-over-each-element-in-array/editorial/">Editorial</a></td>
+</tr>
+<tr>
+<td>5</td>
+<td>Basic Array Transforms</td>
+<td><a href="https://datayi.cn/w/a9a5VZr9" rel="ugc">Filter Elements from Array</a></td>
+<td><a href="https://leetcode.com/problems/filter-elements-from-array/editorial/">Editorial</a></td>
 </tr>
 </tbody>
 </table>
