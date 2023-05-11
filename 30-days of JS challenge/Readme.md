@@ -64,7 +64,7 @@ A brief description of what this project does and who it's for
 </tr>
 <tr>
 
-<td>6/td>
+<td>6</td>
 
 <td>Basic Array Transforms</td>
 
