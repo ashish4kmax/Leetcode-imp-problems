@@ -22,15 +22,10 @@ A brief description of what this project does and who it's for
 </thead>
 <tbody>
 <tr>
-
-<td>7 - <strong>Today's Problem</strong</td>
-
-<td>Function input and Output</td>
-
-<td><a href="https://leetcode.com/problems/function-composition/description/" rel="ugc">Function Composition</a></td>
-
-<td><a href="https://leetcode.com/problems/function-composition/solution/" rel="ugc">Editorial</a></td>
-
+<td>11 - <strong>Today's Problem</strong></td>
+<td>Promise</td>
+<td><a href="https://datayi.cn/w/5Rp2Wmzo" rel="ugc">Sleep</a></td>
+<td><a href="https://leetcode.com/problems/sleep/editorial/">Editorial</a></td>
 </tr>
 <tr>
 <td>1</td>
@@ -63,15 +58,34 @@ A brief description of what this project does and who it's for
 <td><a href="https://leetcode.com/problems/filter-elements-from-array/editorial/">Editorial</a></td>
 </tr>
 <tr>
-
 <td>6</td>
-
 <td>Basic Array Transforms</td>
-
 <td><a href="https://datayi.cn/w/nPN45jD9" rel="ugc">Array Reduce Transformation</a></td>
-
 <td><a href="https://leetcode.com/problems/array-reduce-transformation/editorial/">Editorial</a></td>
-
+</tr>
+<tr>
+<td>7</td>
+<td>Function input and Output</td>
+<td><a href="https://datayi.cn/w/4PY7wZM9" rel="ugc">Function Composition</a></td>
+<td><a href="https://leetcode.com/problems/function-composition/editorial/">Editorial</a></td>
+</tr>
+<tr>
+<td>8</td>
+<td>Function input and Output</td>
+<td><a href="https://datayi.cn/w/a9By01Oo" rel="ugc">Allow One Function Call</a></td>
+<td><a href="https://leetcode.com/problems/allow-one-function-call/editorial/">Editorial</a></td>
+</tr>
+<tr>
+<td>9</td>
+<td>Function input and Output</td>
+<td><a href="https://datayi.cn/w/nRbADVd9" rel="ugc">Memoize</a></td>
+<td><a href="https://leetcode.com/problems/memoize/editorial/">Editorial</a></td>
+</tr>
+<tr>
+<td>10</td>
+<td>Function input and Output</td>
+<td><a href="https://datayi.cn/w/QRekxgjo" rel="ugc">Curry</a></td>
+<td><a href="https://leetcode.com/problems/curry/editorial/">Editorial</a></td>
 </tr>
 </tbody>
 </table>
