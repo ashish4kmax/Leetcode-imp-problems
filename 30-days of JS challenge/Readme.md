@@ -22,10 +22,10 @@ A brief description of what this project does and who it's for
 </thead>
 <tbody>
 <tr>
-<td>11 - <strong>Today's Problem</strong></td>
+<td>12 - <strong>Today's Problem</strong></td>
 <td>Promise</td>
-<td><a href="https://datayi.cn/w/5Rp2Wmzo" rel="ugc">Sleep</a></td>
-<td><a href="https://leetcode.com/problems/sleep/editorial/">Editorial</a></td>
+<td><a href="https://datayi.cn/w/nombN5Z9" rel="ugc">Promise Time Limit</a></td>
+<td><a href="https://leetcode.com/problems/promise-time-limit/editorial/">Editorial</a></td>
 </tr>
 <tr>
 <td>1</td>
@@ -86,6 +86,12 @@ A brief description of what this project does and who it's for
 <td>Function input and Output</td>
 <td><a href="https://datayi.cn/w/QRekxgjo" rel="ugc">Curry</a></td>
 <td><a href="https://leetcode.com/problems/curry/editorial/">Editorial</a></td>
+</tr>
+<tr>
+<td>11</td>
+<td>Promise</td>
+<td><a href="https://datayi.cn/w/5Rp2Wmzo" rel="ugc">Sleep</a></td>
+<td><a href="https://leetcode.com/problems/sleep/editorial/">Editorial</a></td>
 </tr>
 </tbody>
 </table>
