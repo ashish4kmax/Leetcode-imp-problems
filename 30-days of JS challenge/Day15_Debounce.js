@@ -4,8 +4,20 @@
  * @return {Function}
  */
 var debounce = function(fn, t) {
-    // Simple one liner using debounce function.
+    let timer;
+    return function(...args) {
+        if (timer) {
+            clearTimeout(timer);
+        }
+        timer = setTimeout(() => {
+            fn(...args);
+        }, t);
+    }
+    
+    /* 
+    Simple one liner using debounce function.
     return _.debounce(fn,t);
+    */
 };
 
 /**
