@@ -22,10 +22,10 @@ A brief description of what this project does and who it's for
 </thead>
 <tbody>
 <tr>
-<td>21 - <strong>Today's Problem</strong></td>
+<td>22 - <strong>Today's Problem</strong></td>
 <td>JSON / Recursion / Important Utilities</td>
-<td><a href="https://datayi.cn/w/YoXvrdGR" rel="ugc">Chunk Array</a></td>
-<td><a href="https://leetcode.com/problems/chunk-array/editorial/">Editorial</a></td>
+<td><a href="https://datayi.cn/w/rREX6Gm9" rel="ugc">Flatten Deeply Nested Array</a></td>
+<td><a href="https://leetcode.com/problems/flatten-deeply-nested-array/editorial/">Editorial</a></td>
 </tr>
 <tr>
 <td>1</td>
@@ -146,6 +146,12 @@ A brief description of what this project does and who it's for
 <td>JSON / Recursion / Important Utilities</td>
 <td><a href="https://datayi.cn/w/LPdzgyA9" rel="ugc">Differences Between Two Objects</a></td>
 <td><a href="https://leetcode.com/problems/differences-between-two-objects/editorial/">Editorial</a></td>
+</tr>
+<tr>
+<td>21</td>
+<td>JSON / Recursion / Important Utilities</td>
+<td><a href="https://datayi.cn/w/YoXvrdGR" rel="ugc">Chunk Array</a></td>
+<td><a href="https://leetcode.com/problems/chunk-array/editorial/">Editorial</a></td>
 </tr>
 </tbody>
 </table>
