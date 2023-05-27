@@ -22,10 +22,10 @@ A brief description of what this project does and who it's for
 </thead>
 <tbody>
 <tr>
-<td>22 - <strong>Today's Problem</strong></td>
-<td>JSON / Recursion / Important Utilities</td>
-<td><a href="https://datayi.cn/w/rREX6Gm9" rel="ugc">Flatten Deeply Nested Array</a></td>
-<td><a href="https://leetcode.com/problems/flatten-deeply-nested-array/editorial/">Editorial</a></td>
+<td>23 - <strong>Today's Problem</strong></td>
+<td>This</td>
+<td><a href="https://datayi.cn/w/GR434na9" rel="ugc">Array Prototype Last</a></td>
+<td><a href="https://leetcode.com/problems/array-prototype-last/editorial/">Editorial</a></td>
 </tr>
 <tr>
 <td>1</td>
@@ -153,9 +153,14 @@ A brief description of what this project does and who it's for
 <td><a href="https://datayi.cn/w/YoXvrdGR" rel="ugc">Chunk Array</a></td>
 <td><a href="https://leetcode.com/problems/chunk-array/editorial/">Editorial</a></td>
 </tr>
+<tr>
+<td>22</td>
+<td>JSON / Recursion / Important Utilities</td>
+<td><a href="https://datayi.cn/w/rREX6Gm9" rel="ugc">Flatten Deeply Nested Array</a></td>
+<td><a href="https://leetcode.com/problems/flatten-deeply-nested-array/editorial/">Editorial</a></td>
+</tr>
 </tbody>
 </table>
-
 # ❓ How to Participate?
 
 * To participate, simply start solving the daily problems. The daily problem will be released at 00:00 UTC each day in THIS POST, and you must solve the problems within 30 days to qualify for the rewards.
