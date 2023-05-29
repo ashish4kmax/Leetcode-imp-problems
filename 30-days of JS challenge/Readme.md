@@ -22,10 +22,10 @@ A brief description of what this project does and who it's for
 </thead>
 <tbody>
 <tr>
-<td>23 - <strong>Today's Problem</strong></td>
+<td>25 - <strong>Today's Problem</strong></td>
 <td>This</td>
-<td><a href="https://datayi.cn/w/GR434na9" rel="ugc">Array Prototype Last</a></td>
-<td><a href="https://leetcode.com/problems/array-prototype-last/editorial/">Editorial</a></td>
+<td><a href="https://datayi.cn/w/qPkbxBwR" rel="ugc">Check if Object Instance of Class</a></td>
+<td><a href="https://leetcode.com/problems/check-if-object-instance-of-class/editorial/">Editorial</a></td>
 </tr>
 <tr>
 <td>1</td>
@@ -159,8 +159,21 @@ A brief description of what this project does and who it's for
 <td><a href="https://datayi.cn/w/rREX6Gm9" rel="ugc">Flatten Deeply Nested Array</a></td>
 <td><a href="https://leetcode.com/problems/flatten-deeply-nested-array/editorial/">Editorial</a></td>
 </tr>
+<tr>
+<td>23</td>
+<td>This</td>
+<td><a href="https://datayi.cn/w/GR434na9" rel="ugc">Array Prototype Last</a></td>
+<td><a href="https://leetcode.com/problems/array-prototype-last/editorial/">Editorial</a></td>
+</tr>
+<tr>
+<td>24</td>
+<td>This</td>
+<td><a href="https://datayi.cn/w/WoM5GZKo" rel="ugc">Group By</a></td>
+<td><a href="https://leetcode.com/problems/group-by/editorial/">Editorial</a></td>
+</tr>
 </tbody>
 </table>
+
 # ❓ How to Participate?
 
 * To participate, simply start solving the daily problems. The daily problem will be released at 00:00 UTC each day in THIS POST, and you must solve the problems within 30 days to qualify for the rewards.
