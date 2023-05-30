@@ -1,21 +1,54 @@
 class MyHashSet {
-private:
-	vector<bool> hashset;
 public:
-	MyHashSet() : hashset(1e6 + 1, false) {}
-	
-	void add(int key) {
-		hashset[key] = true;
-	}
-	
-	void remove(int key) {
-		hashset[key] = false;
-	}
-	
-	bool contains(int key) {
-		return hashset[key];
-	}
+    vector<bool>m;
+    MyHashSet() {
+        m.resize(1000001);
+    }
+    
+    void add(int key) {
+        m[key] = true;
+    }
+    
+    void remove(int key) {
+        m[key] = false;
+    }
+    
+    bool contains(int key) {
+        if(m[key]==true) {
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
 };
 
-// Can also use set but this method is used to design a hash set it's simple if the vector has a true value then that key is present in hashset if false then key is 
-// not present!! that all.
+/* 
+-------------------------------------------------------Naive solution---------------------------------------
+class MyHashSet {
+public:
+    unordered_map<int,bool>m;
+    MyHashSet() {
+
+    }
+    
+    void add(int key) {
+        if(m[key]!=true) {
+            m[key] = true;
+        }
+    }
+    
+    void remove(int key) {
+        m[key] = false;
+    }
+    
+    bool contains(int key) {
+        if(m[key]==true) {
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+};
+*/
