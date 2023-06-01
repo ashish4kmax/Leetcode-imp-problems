@@ -22,10 +22,10 @@ A brief description of what this project does and who it's for
 </thead>
 <tbody>
 <tr>
-<td>27 - <strong>Today's Problem</strong></td>
+<td>28 - <strong>Today's Problem</strong></td>
 <td>Classes</td>
-<td><a href="https://datayi.cn/w/lPQDyGjR" rel="ugc">Event Emitter</a></td>
-<td><a href="https://leetcode.com/problems/event-emitter/editorial/">Editorial</a></td>
+<td><a href="https://datayi.cn/w/1R3l3Q0P" rel="ugc">Array Wrapper</a></td>
+<td><a href="https://leetcode.com/problems/array-wrapper/editorial/">Editorial</a></td>
 </tr>
 <tr>
 <td>1</td>
@@ -182,6 +182,12 @@ A brief description of what this project does and who it's for
 <td>This</td>
 <td><a href="https://datayi.cn/w/39lbqjpP" rel="ugc">Call Function with Custom Context</a></td>
 <td><a href="https://leetcode.com/problems/call-function-with-custom-context/editorial/">Editorial</a></td>
+</tr>
+<tr>
+<td>27</td>
+<td>Classes</td>
+<td><a href="https://datayi.cn/w/lPQDyGjR" rel="ugc">Event Emitter</a></td>
+<td><a href="https://leetcode.com/problems/event-emitter/editorial/">Editorial</a></td>
 </tr>
 </tbody>
 </table>
