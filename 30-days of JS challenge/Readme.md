@@ -22,10 +22,10 @@ A brief description of what this project does and who it's for
 </thead>
 <tbody>
 <tr>
-<td>29 - <strong>Today's Problem</strong></td>
+<td>30 - <strong>Today's Problem</strong></td>
 <td>Generators</td>
-<td><a href="https://datayi.cn/w/xo040MEo" rel="ugc">Generate Fibonacci Sequence</a></td>
-<td><a href="https://leetcode.com/problems/generate-fibonacci-sequence/editorial/">Editorial</a></td>
+<td><a href="https://datayi.cn/w/JoOOVj1o" rel="ugc">Nested Array Generator</a></td>
+<td><a href="https://leetcode.com/problems/nested-array-generator/editorial/">Editorial</a></td>
 </tr>
 <tr>
 <td>1</td>
@@ -194,6 +194,12 @@ A brief description of what this project does and who it's for
 <td>Classes</td>
 <td><a href="https://datayi.cn/w/1R3l3Q0P" rel="ugc">Array Wrapper</a></td>
 <td><a href="https://leetcode.com/problems/array-wrapper/editorial/">Editorial</a></td>
+</tr>
+<tr>
+<td>29</td>
+<td>Generators</td>
+<td><a href="https://datayi.cn/w/xo040MEo" rel="ugc">Generate Fibonacci Sequence</a></td>
+<td><a href="https://leetcode.com/problems/generate-fibonacci-sequence/editorial/">Editorial</a></td>
 </tr>
 </tbody>
 </table>
