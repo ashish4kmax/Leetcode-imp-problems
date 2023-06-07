@@ -6,20 +6,17 @@ public:
         
         for(int i=0;i<n;i++) {
             vector<int>temp;
-            int rmax = i;
+            int rmax = *max_element(grid[i].begin(),grid[i].end());
             int cmax = i;
             for(int j=0;j<n;j++) {
-                if(grid[i][j]>grid[i][rmax]) {
-                    rmax = j;
-                }
-
                 if(grid[j][i]>grid[cmax][i]) {
                     cmax = j;
                 }
             }
             cmax = grid[cmax][i];
+            //cout<<cmax<<" "<<grid[i][rmax]<<endl;
             temp.push_back(cmax);
-            temp.push_back(grid[i][rmax]);
+            temp.push_back(rmax);
             rcmax.push_back(temp);
             temp.clear();
         }
