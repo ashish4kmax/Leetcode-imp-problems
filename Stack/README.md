@@ -5,4 +5,4 @@
 * <a href="https://leetcode.com/problems/removing-stars-from-a-string/">Removing Stars From a String</a>
 * <a href="https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/description/">Decrypt String from Alphabet to Integer Mapping</a>
 * <a href="https://leetcode.com/problems/baseball-game/">Baseball Game</a>
-* * <a href="https://leetcode.com/problems/design-a-stack-with-increment-operation/">Design a Stack With Increment Operation</a>
+* <a href="https://leetcode.com/problems/design-a-stack-with-increment-operation/">Design a Stack With Increment Operation</a>
