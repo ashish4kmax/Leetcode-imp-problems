@@ -1,5 +1,6 @@
 class Solution {
 public:
+    // Set-Map Approach :-
     vector<int> findingUsersActiveMinutes(vector<vector<int>>& logs, int k) {
         vector<int>ans (k,0);
         vector<int>uams;
