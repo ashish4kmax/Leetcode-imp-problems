@@ -12,3 +12,4 @@
 * <a href="https://leetcode.com/problems/increasing-decreasing-string/">Increasing Decreasing String</a>
 * <a href="https://leetcode.com/problems/design-hashmap/">Design HashMap</a>
 * <a href="https://leetcode.com/problems/design-hashset/">Design HashSet</a>
+* <a href="https://leetcode.com/problems/finding-the-users-active-minutes/">Finding the Users Active Minutes</a>
