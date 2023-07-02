@@ -6,8 +6,8 @@ public:
         int mid = (low+high)/2;
 
         if(arr[mid]==x) return mid;
-        else if(arr[mid]>x) return bsearch(arr, low, high-1, x);
-        else return bsearch(arr, low+1, high, x);
+        else if(arr[mid]>x) return bsearch(arr, low, mid-1, x);
+        else return bsearch(arr, mid+1, high, x);
     }
 
     vector<int> intersect(vector<int>& nums1, vector<int>& nums2) {
