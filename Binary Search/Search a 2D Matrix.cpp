@@ -6,8 +6,8 @@ public:
         int mid = (low+high)/2;
         
         if(nums[mid] == x) return true;
-        else if(nums[mid] > x) return bsearch(nums, low, high-1, x);
-        else return bsearch(nums, low+1, high, x);
+        else if(nums[mid] > x) return bsearch(nums, low, mid-1, x);
+        else return bsearch(nums, mid+1, high, x);
     }
 
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
