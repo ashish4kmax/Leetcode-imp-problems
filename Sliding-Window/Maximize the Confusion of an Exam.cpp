@@ -1,27 +1,10 @@
 class Solution {
 public:
-    bool check(string s) {
-        int n = s.size();
-        int c = 0;
-        for(int i=0;i<n-1;i++) {
-            if(s[i]==s[i+1]) c++;
-        }
-
-        if(c==n-1) return true;
-        else return false;
-    } 
-
     int maxConsecutiveAnswers(string aK, int k) {
         std::ios_base::sync_with_stdio(false);
         std::cout.tie(nullptr);
         std::cin.tie(nullptr);
         int n = aK.size();
-
-        if(k==n) return n;
-
-        if(check(aK)) return n;
-
-
         int cT = 0;
         int cF = 0;
 
