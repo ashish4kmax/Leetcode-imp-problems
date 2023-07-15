@@ -23,24 +23,11 @@ public:
         std::ios_base::sync_with_stdio(false);
         std::cin.tie(nullptr);
         std::cout.tie(nullptr);
-        vector<int>r1;
-        vector<int>r2;
-
-        inorder(root1,r1);
-        inorder(root2,r2);
-
+        
         vector<int>res;
         
-        int n1 = r1.size();
-        int n2 = r2.size();
-
-        for(int i=0;i<n1;i++) {
-            res.push_back(r1[i]);
-        }
-
-        for(int i=0;i<n2;i++) {
-            res.push_back(r2[i]);
-        }
+        inorder(root1,res);
+        inorder(root2,res);
 
         sort(res.begin(),res.end());
 
