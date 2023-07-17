@@ -16,21 +16,6 @@ public:
         return newnode;
     }
 
-    ListNode* insertend(ListNode* res,int value) {
-        ListNode* newnode=new ListNode(value);
-        if(res==NULL) {
-            return newnode;
-        }
-        else {
-            ListNode* curr=res;
-            while(curr->next!=NULL) {
-                curr=curr->next;
-            }
-            curr->next=newnode;
-            return res;
-        }
-    }
-
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
         ListNode* res=NULL;
         ListNode* rev1=NULL;
