@@ -1,6 +1,8 @@
 class Solution {
 public:
     int largestSumAfterKNegations(vector<int>& nums, int k) {
+        ios_base::sync_with_stdio(false);
+        cin.tie(NULL);
         sort(nums.begin(),nums.end());
         int n = nums.size();
 
@@ -15,21 +17,20 @@ public:
             }
         }   
 
-        int min = 0;
-        for(int i=0;i<n;i++) {
-            if(nums[i]<nums[min]) min = i;
+        if(i!=0 && i!=n && nums[i-1]<nums[i]) {
+            i-=1;
         }
-        
+
         while(op<k) {
-            if(nums[min]<0) {
-                nums[min] = abs(nums[min]);
+            if(nums[i]<0) {
+                nums[i] = abs(nums[i]);
                 op++;
             }
-            else if(nums[min]==0) {
+            else if(nums[i]==0) {
                 op++;
             }
             else {
-                nums[min] = -nums[min];
+                nums[i] = -nums[i];
                 op++;
             }
         }
