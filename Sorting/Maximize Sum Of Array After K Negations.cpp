@@ -19,9 +19,7 @@ public:
         for(int i=0;i<n;i++) {
             if(nums[i]<nums[min]) min = i;
         }
-
-        //cout<<nums[min]<<" ";
-
+        
         while(op<k) {
             if(nums[min]<0) {
                 nums[min] = abs(nums[min]);
