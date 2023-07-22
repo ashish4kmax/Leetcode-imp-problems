@@ -21,7 +21,7 @@ public:
             sort(temp.begin(),temp.end());
 
             for(int i=0;i<temp.size();i++) {
-                if(c==k) break;
+                if(c==k) return res;
                 res.push_back(temp[i]);
                 c++;
             }
