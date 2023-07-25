@@ -7,7 +7,7 @@ public:
         sort(nums.begin(),nums.end());
         int n = nums.size();
         int res = nums[n-1]-nums[n-k];
-        int i=0;
+        int i=1;
 
         while((n-k-i)!=-1) {
             res = min(res, (nums[n-1-i]-nums[n-k-i]));
