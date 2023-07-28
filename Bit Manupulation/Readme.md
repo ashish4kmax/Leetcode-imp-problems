@@ -1,0 +1,2 @@
+# Bitwise Operators: Manipulating Binary Numbers
+* Bitwise operators are powerful tools for manipulating binary numbers. They operate at the bit level, allowing you to perform various operations efficiently. Here are the most common bitwise operators and their functionalities: for further details use the link :- https://leetcode.com/discuss/interview-question/3695233/all-types-of-patterns-for-bits-manipulations-and-how-to-use-it
