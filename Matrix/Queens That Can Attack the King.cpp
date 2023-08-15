@@ -1,98 +1,104 @@
 class Solution {
 public:
     vector<vector<int>> queensAttacktheKing(vector<vector<int>>& queens, vector<int>& king) {
-        
-        vector<vector<int>> ans;
-        
-        map<pair<int, int>, bool>M;
-        
-        for(auto q:queens)
-            M[{q[0], q[1]}] = true; 
-        
-        int kr = king[0], kc = king[1];
-        
-        // top
-        for(int r=kr; r>=0; r--)
-        {
-            if(M.find({r , kc}) != M.end())
-            {
-                ans.push_back({r, kc});
+        ios_base::sync_with_stdio(false);
+        cin.tie(NULL);
+
+        vector<vector<int>>res;
+
+        int q = queens.size();
+        char chessboard[8][8];
+        for(int i=0;i<8;i++) {
+            for(int j=0;j<8;j++) {
+                chessboard[i][j] = ' ';
+            }
+        }
+
+        for(int i=0;i<q;i++) {
+            chessboard[queens[i][0]][queens[i][1]] = 'Q';
+        }
+
+        chessboard[king[0]][king[1]] = 'K';
+
+        // row wise checking
+        vector<int>pos;
+        for(int i=king[1];i>=0;i--) {
+            if(chessboard[king[0]][i]=='Q') {
+                pos.push_back(king[0]);
+                pos.push_back(i);
+                break;
+            } 
+        }
+
+        for(int i=king[1];i<8;i++) {
+            if(chessboard[king[0]][i]=='Q') {
+                pos.push_back(king[0]);
+                pos.push_back(i);
+                break;
+            }    
+        }
+
+        // column wise checking 
+        for(int i=king[0];i>=0;i--) {
+            if(chessboard[i][king[1]]=='Q') {
+                pos.push_back(i);
+                pos.push_back(king[1]);
+                break;
+            } 
+        }
+
+        for(int i=king[0];i<8;i++) {
+            if(chessboard[i][king[1]]=='Q') {
+                pos.push_back(i);
+                pos.push_back(king[1]);
                 break;
             }
         }
-        
-        // down
-        for(int r=kr; r<8; r++)
-        {
-            if(M.find({r , kc}) != M.end())
-            {
-                ans.push_back({r, kc});
+
+        // upper two diagonal wise checking 
+        for(int i=king[0],j=king[1];i>=0 && j>=0;i--,j--) {
+            if(chessboard[i][j]=='Q') {
+                pos.push_back(i);
+                pos.push_back(j);
+                break;
+            } 
+        }
+
+        for(int i=king[0],j=king[1];i>=0 && j<8;i--,j++) {
+            if(chessboard[i][j]=='Q') {
+                pos.push_back(i);
+                pos.push_back(j);
                 break;
             }
         }
-        
-        // left
-        for(int c=kc; c>=0; c--)
-        {
-            if(M.find({kr , c}) != M.end())
-            {
-                ans.push_back({kr, c});
+
+        // lower two diagonal wise checking
+        for(int i=king[0],j=king[1];i<8 && j<8;i++,j++) {
+            if(chessboard[i][j]=='Q') {
+                pos.push_back(i);
+                pos.push_back(j);
+                break;
+            } 
+        }
+
+        for(int i=king[0],j=king[1];i<8 && j>=0;i++,j--) {
+            if(chessboard[i][j]=='Q') {
+                pos.push_back(i);
+                pos.push_back(j);
                 break;
             }
         }
-        
-        // right
-        for(int c=kc; c<8; c++)
-        {
-            if(M.find({kr , c}) != M.end())
-            {
-                ans.push_back({kr, c});
-                break;
-            }
+
+        //enterting positions
+        if(pos.size()==0) return res;
+
+        for(int i=0;i<pos.size()-1;i+=2) {
+            vector<int>temp;
+            temp.push_back(pos[i]);
+            temp.push_back(pos[i+1]);
+            res.push_back(temp);
         }
-        
-        // top left
-        int c = kc;
-        for(int r=kr; r>=0 and c>=0; r--)
-        {
-            if(M.find({r , c}) != M.end())
-            {
-                ans.push_back({r, c});
-                break;
-            }
-            c--;
-        }
-        
-        // top right
-        for(int r=kr, c = kc; r>=0 and c<8; r--, c++)
-        {
-            if(M.find({r , c}) != M.end())
-            {
-                ans.push_back({r, c});
-                break;
-            }
-        }
-        
-        // bottom left
-        for(int r=kr, c=kc; r<8 and c>=0; r++, c--)
-        {
-            if(M.find({r , c}) != M.end())
-            {
-                ans.push_back({r, c});
-                break;
-            }
-        }
-        
-        // bottom right
-        for(int r=kr, c=kc; r<8 and c<8; r++, c++)
-        {
-            if(M.find({r , c}) != M.end())
-            {
-                ans.push_back({r, c});
-                break;
-            }
-        }
-        
-        return ans;
+
+        return res;
     }
 };
