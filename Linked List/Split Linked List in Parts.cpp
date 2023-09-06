@@ -1,4 +1,4 @@
-// Naive Soln:-
+// Naive Soln O(n^2):-
 /**
  * Definition for singly-linked list.
  * struct ListNode {
