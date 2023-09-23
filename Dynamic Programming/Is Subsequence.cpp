@@ -1,3 +1,20 @@
+// Improved O(n1+n2) = O(n) timed solution and space O(1) optimized and best solution.
+class Solution {
+public:
+    bool isSubsequence(string t, string s) {
+        // Simpler in place method!!.
+        int j=0;
+        for(int i=0;i<s.length() && j<t.length();i++) {
+            if(s[i]==t[j]) {
+                j++;
+            }
+        }
+
+        return (j==t.length());
+    }
+};
+
+/*
 // TC: O(n^2) TC can be imporved till O(nlogn) max maybe O(n) too.
 // SC: O(n)
 class Solution {
@@ -35,3 +52,4 @@ public:
         return true;
     }
 };
+*/
