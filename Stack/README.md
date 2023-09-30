@@ -7,4 +7,5 @@
 * <a href="https://leetcode.com/problems/baseball-game/">Baseball Game</a>
 * <a href="https://leetcode.com/problems/design-a-stack-with-increment-operation/">Design a Stack With Increment Operation</a>
 * <a href="https://leetcode.com/problems/asteroid-collision/">Asteroid Collision </a> **
-* 
+* <a href="https://leetcode.com/problems/minimum-add-to-make-parentheses-valid">Minimum Add to Make Parentheses Valid </a>
+
