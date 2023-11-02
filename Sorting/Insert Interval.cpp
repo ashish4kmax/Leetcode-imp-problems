@@ -1,57 +1,44 @@
-// Similar to Merge intervals.
 class Solution {
 public:
-    vector<vector<int>> insert(vector<vector<int>>& inter, vector<int>& newInterval) {
+    vector<vector<int>> insert(vector<vector<int>>& intervals, vector<int>& newInterval) {
         // Overall O(n) as the solution is sorted already.
         ios_base::sync_with_stdio(false);
         cin.tie(NULL);
 
         // finding the new interval position in the list of intervals.
-        int n = inter.size();
+        int n = intervals.size();
         int index = n;
         if(n==0) {
             index = 0;
         }
         for(int i=0;i<n;i++) {
-            if(newInterval[0]<=inter[i][0]) {
+            if(newInterval[0]<=intervals[i][0]) {
                 index = i;
                 break;
             }
         }
 
         // O(n) for insertion.
-        inter.insert(inter.begin()+index,newInterval);
-        n = inter.size();
+        intervals.insert(intervals.begin()+index,newInterval);
+        n = intervals.size();
         vector<vector<int>>res;
-
-        vector<int>temp;
-        int mini= inter[0][0], maxi=inter[0][1];
-        for(int i=1;i<n;i++) {
-            if(inter[i][0]>=mini && inter[i][0]<=maxi) {
-               maxi = max(maxi,inter[i][1]);
+        
+        int mini = intervals[0][0];
+        int maxi = intervals[0][1];
+    
+        for(int i=0;i<n-1;i++) {
+            if(maxi>=intervals[i+1][0] && maxi<=intervals[i+1][1]) {
+                maxi = max(maxi, intervals[i+1][1]);
             }
             else {
-                temp.push_back(mini);
-                temp.push_back(maxi);
-                res.push_back(temp);
-                mini = inter[i][0];
-                maxi = inter[i][1];
+                if(maxi>=intervals[i+1][0] && maxi>=intervals[i+1][1]) continue;
+                res.push_back({mini,maxi});
+                mini = intervals[i+1][0];
+                maxi = intervals[i+1][1];
             }
-            temp.clear();
         }
 
-        if(inter[n-1][0]>=mini && inter[n-1][0]<=maxi) {
-            maxi = max(maxi,inter[n-1][1]);
-        }
-        else {
-            mini = inter[n-1][0];
-            maxi = inter[n-1][1];
-        }
-
-
-        temp.push_back(mini);
-        temp.push_back(maxi);
-        res.push_back(temp);
+        res.push_back({mini,maxi});
 
         return res;
     }
